@@ -22,7 +22,7 @@ if _RELEASE:
     }
 else:
     config = {
-        "url": "http://localhost:3001",
+        "url": "http://localhost:12990",
     }
 
 _component_func = components.declare_component("contribution_graph", **config)

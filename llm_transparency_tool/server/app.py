@@ -3,7 +3,8 @@
 #
 # This source code is licensed under the license found in the
 # LICENSE file in the root directory of this source tree.
-
+import os
+os.environ["CUDA_VISIBLE_DEVICES"]="0,1,2,3,4"
 import argparse
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Tuple

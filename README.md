@@ -53,7 +53,7 @@ yarn build
 ### Launch
 
 ```bash
-streamlit run llm_transparency_tool/server/app.py -- config/local.json
+streamlit run llm_transparency_tool/server/app.py --server.port=12990 --theme.font=Inconsolata -- config/local.json
 ```
 
 
